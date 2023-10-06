@@ -47,8 +47,116 @@ nav ul li a:hover{
     width: 50%;
     height: 90%;
     position: absolute;
+    top: 15%;
     bottom: 0;
-    right: 30px;
-    
+    left: 5%;
+}
 
+.image img{
+    height: 90%;
+    width: 70%;
+    position: absolute;
+    left: 1%;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+h4{
+    color: yellow;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: red;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+h3{
+    color: black;
+    font-size: 25px ;
+    margin-bottom: 50px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #1919;
+}
+.about-me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img{
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text{
+    width: 550px;
+}
+.about-text h2{
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid yellow;
+}
+.about-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25 px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.identity {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.identity h1 {
+    font-size: 36px;
+}
+.identity p {
+    font-size: 18px;
+    color: #777;
+}
+.skills {
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+.skills h2{
+    margin-bottom: 20px;
+}
+.skill {
+    margin-bottom: 20px;
+}
+.skill h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+.skill-level {
+    background-color: #4caf50;
+    color: #fff;
+    height: 100%;
+    border-radius: 10px;
+    text-align: right;
+    padding: 5px;
+    width: 90%; 
 }

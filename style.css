@@ -17,7 +17,7 @@ nav{
     padding-bottom: 10px;
     padding-right: 8%;
     padding-left: 8%;
-    background-color: gray;
+    background-color: #526D82;
     border-bottom: 1px solid black;
 }
 .logo{
@@ -30,7 +30,7 @@ nav{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 nav ul li a{
     color: white;
@@ -47,26 +47,28 @@ nav ul li a:hover{
     width: 50%;
     height: 90%;
     position: absolute;
-    top: 15%;
+    top: 10%;
     bottom: 0;
-    left: 5%;
+    left: 8%;
 }
 
 .image img{
-    height: 90%;
-    width: 70%;
+    height: auto;
+    width: 430px;
     position: absolute;
     left: 1%;
+    border-radius: 10px;
 }
 .content{
     position: absolute;
     top: 35%;
-    right: 20%;
+    right: 10%;
 }
 h4{
-    color: yellow;
+    color: black;
     letter-spacing: 2px;
     font-size: 20px;
+    
 }
 h1{
     color: red;
@@ -81,7 +83,7 @@ h3{
 .about{
     width: 100%;
     padding: 100px 0;
-    background-color: #1919;
+    background-color: gainsboro;
 }
 .about-me{
     width: 1130px;
@@ -104,14 +106,15 @@ h3{
     font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid black;
 }
 .about-text h5{
     color: black;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 22px;
     margin-bottom: 25 px;
     text-transform: capitalize;
+    padding-bottom: 10px;
 }
 .about-text p{
     color: black;
@@ -139,8 +142,14 @@ h3{
 .skills h2{
     margin-bottom: 20px;
 }
+.skill-border {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
 .skill {
     margin-bottom: 20px;
+    
 }
 .skill h3 {
     font-size: 18px;
@@ -159,4 +168,59 @@ h3{
     text-align: right;
     padding: 5px;
     width: 90%; 
+}
+.blog{
+    width: 100%;
+}
+.blog .blog-row{
+    width: 80%;
+    margin: auto;
+}
+.blog .blog-row .blog-header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.blog .blog-row .blog-header h1{
+    padding-top: 30px;
+    font-size: 45px;
+    color: black;
+}
+.blog .blog-row .blog-header p{
+    margin: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+}
+
+.content-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: auto;
+}
+.content-blog .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: whitesmoke;
+    border-radius: 10px;
+}   
+.content-blog .card img{
+    width: 100%;
+    height: auto ;
+}
+.content-blog .card h4{
+    margin-top: 10px;
+    margin-left: 10px ;
+    font-size: 18px;
+    color: black;
+    
+}
+.content-blog .card p{
+    font-size: 15px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    padding: 10px;
 }

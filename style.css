@@ -7,7 +7,7 @@
 .home{
     height: 100vh;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #DDE6ED;
 }
 nav{
     display: flex;
@@ -62,7 +62,7 @@ nav ul li a:hover{
 .content{
     position: absolute;
     top: 35%;
-    right: 10%;
+    left: 55%;
 }
 h4{
     color: black;
@@ -71,19 +71,20 @@ h4{
     
 }
 h1{
-    color: red;
+    color: black;
     font-size: 65px;
     margin: 20px 0 20px;
 }
 h3{
-    color: black;
+    color: grey;
     font-size: 25px ;
-    margin-bottom: 50px;
+    font-weight: bolder;
+    
 }
 .about{
     width: 100%;
     padding: 100px 0;
-    background-color: gainsboro;
+    background-color: #DDE6ED;
 }
 .about-me{
     width: 1130px;

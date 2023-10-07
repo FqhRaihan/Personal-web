@@ -161,14 +161,32 @@ h3{
     height: 20px;
     border-radius: 10px;
 }
-.skill-level {
-    background-color: #4caf50;
+.skill-level-1 {
+    background-color: #526D82;
     color: #fff;
     height: 100%;
     border-radius: 10px;
     text-align: right;
     padding: 5px;
-    width: 90%; 
+    width: 85%; 
+}
+.skill-level-2 {
+    background-color: #526D82;
+    color: #fff;
+    height: 100%;
+    border-radius: 10px;
+    text-align: right;
+    padding: 5px;
+    width: 70%; 
+}
+.skill-level-3 {
+    background-color: #526D82;
+    color: #fff;
+    height: 100%;
+    border-radius: 10px;
+    text-align: right;
+    padding: 5px;
+    width: 80%; 
 }
 .blog{
     width: 100%;

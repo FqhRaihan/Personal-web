@@ -230,11 +230,13 @@ h3{
     width: 100%;
     height: auto ;
 }
-.content-blog .card h4{
+.content-blog .card a h4{
     margin-top: 10px;
     margin-left: 10px ;
     font-size: 18px;
     color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .content-blog .card p{
@@ -242,4 +244,5 @@ h3{
     color: #6e6e6e;
     line-height: 1.5;
     padding: 10px;
+    
 }
